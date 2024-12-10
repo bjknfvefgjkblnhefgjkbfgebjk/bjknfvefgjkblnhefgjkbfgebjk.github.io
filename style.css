@@ -140,6 +140,7 @@ nav button#menuButton {
   padding: 3rem 2rem;
   text-align: center;
   border: 3px solid #94f8ff;
+  margin-top: 30px;
 }
 
 .included-features h2 {
@@ -549,7 +550,7 @@ nav ul li a {
 }
 
 button.doc {
-  margin-left: 44%;
+  margin-left: 43%;
   position: relative;
   padding: 10px 20px;
   border-radius: 40px;
@@ -685,8 +686,13 @@ button.doc:active {
 }
 
 @media screen and (max-width: 992px) {
+
+  #mbg {
+    min-width: 112%;
+  }
+
   button.doc {
-    margin-left: 40px;
+    margin-left: 16%;
   }
 
   button.doc:before {
