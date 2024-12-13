@@ -12,7 +12,7 @@ class Snowflake {
         this.y = Math.random() * canvas.height;
         this.baseRadius = Math.random() * 2 + 1;
         this.radius = this.baseRadius;
-        this.speed = Math.random() * 1 + 0.5;
+        this.speed = Math.random() * 1 / 362;
         this.wind = Math.random() * 0.5 - 0.25;
         this.twinkleSpeed = Math.random() * 0.05 + 0.01;
         this.twinkleOffset = Math.random() * Math.PI * 2;
