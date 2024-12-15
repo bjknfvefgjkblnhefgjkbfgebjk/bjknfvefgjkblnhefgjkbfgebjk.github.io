@@ -999,7 +999,7 @@ body {
   position: relative;
   padding: 4rem 2rem;
   text-align: center;
-  background-image: url("/mountains-bg.jpg");
+  background-image: url("../images/server-img.jpg");
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;

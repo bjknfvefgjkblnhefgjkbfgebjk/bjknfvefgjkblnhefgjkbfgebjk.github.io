@@ -93,5 +93,5 @@
   }, 4100);
 
   setTimeout(() => {
-    window.location.href = "../";
+    window.location.href = "https://dash.astro-hosting.net";
   }, 5000);
