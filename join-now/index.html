@@ -66,6 +66,11 @@
             <p>
                 All Rights Reserved. © 2023 - <span id="year"></span> Build by Robotic Germany ✠
             </p>
+            <script>
+              document.addEventListener("DOMContentLoaded", function() {
+                  document.querySelector('.year').textContent = new Date().getFullYear();
+              });
+          </script>
             <div class="links">
                 <a href="hhttps://Astro-Hosting.net/imprint">Imprint</a>
                 <a href="hhttps://Astro-Hosting.net/privacy">Privacy Policy</a>
