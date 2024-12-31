@@ -78,7 +78,7 @@ window.addEventListener("resize", () => {
 createSnowflakes();
 animateskyfall();
 
-/* (function () {
+(function () {
     function preventDevTools() {
       if (window.devtools.open) {
         window.location.reload();
@@ -136,7 +136,7 @@ animateskyfall();
     if ((event.ctrlKey || event.metaKey) && event.keyCode == 83) {
       event.preventDefault();
     }
-  }); */
+  });
 
 
 document.addEventListener("click", (e) => {
